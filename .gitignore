@@ -1,0 +1,20 @@
+# 凭证与登录态：绝不提交
+**/credentials/
+.workbuddy/
+
+# 运行时环境
+.venv/
+**/node_modules/
+__pycache__/
+*.pyc
+
+# 缓存与日志
+today_coupons_cache.json
+mt_coupon_history.json
+auth_tokens.json
+*.log
+.write-lock
+
+# 系统文件
+.DS_Store
+._*
